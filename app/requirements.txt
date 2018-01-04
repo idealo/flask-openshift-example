@@ -1,0 +1,43 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+asn1crypto=0.22.0=py36h265ca7c_1
+ca-certificates=2017.08.26=h1d4fec5_0
+certifi=2017.7.27.1=py36h8b7b77e_0
+cffi=1.10.0=py36had8d393_1
+chardet=3.0.4=py36h0f667ec_1
+click=6.7=py36h5253387_0
+conda=4.3.30=py36h5d9f9f4_0
+conda-env=2.6.0=h36134e3_1
+cryptography=2.0.3=py36ha225213_1
+flask=0.12.2=py36hb24657c_0
+gunicorn=19.7.1=py36h38c4014_0
+idna=2.6=py36h82fb2a8_1
+itsdangerous=0.24=py36h93cc618_1
+jinja2=2.10=py36ha16c418_0
+libedit=3.1=heed3624_0
+libffi=3.2.1=h4deb6c0_3
+libgcc-ng=7.2.0=hcbc56d2_1
+libstdcxx-ng=7.2.0=h24385c6_1
+markupsafe=1.0=py36hd9260cd_1
+ncurses=6.0=h06874d7_1
+openssl=1.0.2l=h9d1a558_3
+pip=9.0.1=py36h30f8307_2
+pycosat=0.6.2=py36h1a0ea17_1
+pycparser=2.18=py36hf9f622e_1
+pyopenssl=17.2.0=py36h5cc804b_0
+pysocks=1.6.7=py36hd97a5b1_1
+python=3.6.2=h02fb82a_12
+readline=7.0=hac23ff0_3
+requests=2.18.4=py36he2e5f8d_1
+ruamel_yaml=0.11.14=py36ha2fb22d_2
+setuptools=36.5.0=py36he42e2e1_0
+six=1.10.0=py36hcac75e4_1
+sqlite=3.20.1=h6d8b0f3_1
+tk=8.6.7=h5979e9b_1
+urllib3=1.22=py36hbe7ace6_0
+werkzeug=0.12.2=py36hc703753_0
+wheel=0.29.0=py36he7f4e38_1
+xz=5.2.3=h2bcbf08_1
+yaml=0.1.7=h96e3832_1
+zlib=1.2.11=hfbfcf68_1
