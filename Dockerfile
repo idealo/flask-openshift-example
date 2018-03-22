@@ -30,12 +30,18 @@ RUN echo 'export PATH=/opt/conda/bin:$PATH' > /etc/profile.d/conda.sh && \
 
 ENV PATH /opt/conda/bin:$PATH
 
-# Deploy application
+# Install dependencies via Anaconda
 RUN mkdir -p /deploy/app
+COPY app/requirements.txt /deploy/app/requirements.txt
+RUN conda install -y --file /deploy/app/requirements.txt
+
+# Deploy application
 COPY gunicorn_config.py /deploy/gunicorn_config.py
 COPY app /deploy/app
-RUN conda install -y --file /deploy/app/requirements.txt
 WORKDIR /deploy/app
+
+# Set Python path
+ENV PYTHONPATH=/deploy
 
 EXPOSE 8080
 
