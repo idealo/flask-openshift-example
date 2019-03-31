@@ -1,6 +1,5 @@
 FROM python:3.7-alpine
 
-# Install dependencies via Anaconda
 RUN mkdir -p /deploy/app
 COPY app/requirements.txt /deploy/app/requirements.txt
 RUN pip install -r /deploy/app/requirements.txt
