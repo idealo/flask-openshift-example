@@ -2,6 +2,8 @@
 
 This repository provides a simple Python web application using Anaconda as the package manager. This application is intended to be deployed on OpenShift 3.
 
+This project is no longer actively maintained and has been archived on Jan 7, 2025.
+
 ## Getting Started
 
 1. Deploy app: `oc new-app git@github.com:idealo/flask-openshift-example.git --name=flask-app`
